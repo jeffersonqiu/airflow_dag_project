@@ -1,0 +1,18 @@
+[2024-06-03T06:43:53.118+0000] {processor.py:161} INFO - Started process (PID=3364) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-06-03T06:43:53.119+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-06-03T06:43:53.120+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.120+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-06-03T06:43:53.130+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-06-03T06:43:53.253+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.252+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_setup_teardown_taskflow
+[2024-06-03T06:43:53.267+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.267+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_setup_teardown_taskflow
+[2024-06-03T06:43:53.279+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.278+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_setup_teardown_taskflow
+[2024-06-03T06:43:53.279+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.279+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:43:53.289+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.289+0000] {dag.py:3118} INFO - Creating ORM DAG for example_setup_teardown_taskflow
+[2024-06-03T06:43:53.298+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:53.298+0000] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:43:53.323+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.211 seconds
+[2024-06-03T06:44:50.896+0000] {processor.py:161} INFO - Started process (PID=3418) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-06-03T06:44:50.897+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-06-03T06:44:50.899+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:50.899+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-06-03T06:44:50.910+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-06-03T06:44:50.929+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:50.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:44:50.951+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:50.950+0000] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:44:50.975+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.085 seconds

@@ -1,0 +1,12 @@
+[2024-06-03T06:43:27.636+0000] {processor.py:161} INFO - Started process (PID=3339) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-03T06:43:27.637+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-03T06:43:27.639+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:27.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-03T06:43:27.642+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:27.641+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-03T06:43:27.642+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-03T06:43:27.658+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2024-06-03T06:44:29.826+0000] {processor.py:161} INFO - Started process (PID=3397) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-03T06:44:29.827+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-03T06:44:29.829+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:29.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-03T06:44:29.832+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:29.832+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-03T06:44:29.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-03T06:44:29.844+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds

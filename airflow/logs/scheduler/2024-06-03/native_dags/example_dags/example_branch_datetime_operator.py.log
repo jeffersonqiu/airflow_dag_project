@@ -1,0 +1,21 @@
+[2024-06-03T06:44:24.640+0000] {processor.py:161} INFO - Started process (PID=3393) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2024-06-03T06:44:24.641+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2024-06-03T06:44:24.642+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2024-06-03T06:44:24.653+0000] {processor.py:840} INFO - DAG(s) 'example_branch_datetime_operator_2', 'example_branch_datetime_operator_3', 'example_branch_datetime_operator' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2024-06-03T06:44:24.770+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.770+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_branch_datetime_operator_2
+[2024-06-03T06:44:24.785+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.784+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_branch_datetime_operator_2
+[2024-06-03T06:44:24.796+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.796+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_branch_datetime_operator_2
+[2024-06-03T06:44:24.821+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.821+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_branch_datetime_operator_3
+[2024-06-03T06:44:24.832+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.832+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_branch_datetime_operator_3
+[2024-06-03T06:44:24.844+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.843+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_branch_datetime_operator_3
+[2024-06-03T06:44:24.869+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.869+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_branch_datetime_operator
+[2024-06-03T06:44:24.880+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.880+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_branch_datetime_operator
+[2024-06-03T06:44:24.891+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.890+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_branch_datetime_operator
+[2024-06-03T06:44:24.891+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.891+0000] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-06-03T06:44:24.902+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.902+0000] {dag.py:3118} INFO - Creating ORM DAG for example_branch_datetime_operator
+[2024-06-03T06:44:24.902+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.902+0000] {dag.py:3118} INFO - Creating ORM DAG for example_branch_datetime_operator_3
+[2024-06-03T06:44:24.903+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.903+0000] {dag.py:3118} INFO - Creating ORM DAG for example_branch_datetime_operator_2
+[2024-06-03T06:44:24.915+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.914+0000] {dag.py:3954} INFO - Setting next_dagrun for example_branch_datetime_operator to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:44:24.917+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.916+0000] {dag.py:3954} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:44:24.918+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:24.918+0000] {dag.py:3954} INFO - Setting next_dagrun for example_branch_datetime_operator_3 to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:44:24.943+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.309 seconds

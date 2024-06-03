@@ -1,0 +1,18 @@
+[2024-06-03T06:43:41.094+0000] {processor.py:161} INFO - Started process (PID=3355) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-03T06:43:41.095+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-06-03T06:43:41.097+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-03T06:43:41.116+0000] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-03T06:43:41.252+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.251+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2024-06-03T06:43:41.268+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.267+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2024-06-03T06:43:41.279+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.279+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2024-06-03T06:43:41.280+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.279+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:43:41.290+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.290+0000] {dag.py:3118} INFO - Creating ORM DAG for example_task_group_decorator
+[2024-06-03T06:43:41.300+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:41.300+0000] {dag.py:3954} INFO - Setting next_dagrun for example_task_group_decorator to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:43:41.324+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.236 seconds
+[2024-06-03T06:44:41.639+0000] {processor.py:161} INFO - Started process (PID=3409) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-03T06:44:41.641+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-06-03T06:44:41.643+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:41.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-03T06:44:41.660+0000] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-03T06:44:41.682+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:41.682+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:44:41.703+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:41.703+0000] {dag.py:3954} INFO - Setting next_dagrun for example_task_group_decorator to 2024-06-02 00:00:00+00:00, run_after=2024-06-03 00:00:00+00:00
+[2024-06-03T06:44:41.728+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.095 seconds

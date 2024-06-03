@@ -1,0 +1,77 @@
+2024-06-03 06:41:26.559 [info] Log level: Info
+2024-06-03 06:41:26.559 [info] Validating found git in: "git"
+2024-06-03 06:41:26.559 [info] Using git "2.43.0" from "git"
+2024-06-03 06:41:26.570 [info] > git rev-parse --show-toplevel [12ms]
+2024-06-03 06:41:26.570 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 06:41:26.578 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-03 06:41:26.578 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 06:41:26.584 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 06:41:26.584 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 06:41:26.590 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 06:41:26.590 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 06:44:15.270 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-03 06:44:15.270 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 06:59:52.951 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-03 06:59:52.952 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:00:00.442 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 07:00:00.442 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:00:05.961 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-03 07:00:05.961 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:00:06.820 [info] > git rev-parse --show-toplevel [0ms]
+2024-06-03 07:00:06.820 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:00:07.412 [warning] Failed to get repository realpath for: "/home/ubuntu/.vscode-server/extensions/.eab00624-9db8-4e61-b304-f0ecb6f9f79d/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/". Error: ENOENT: no such file or directory, realpath '/home/ubuntu/.vscode-server/extensions/.eab00624-9db8-4e61-b304-f0ecb6f9f79d/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/'
+2024-06-03 07:00:15.146 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-03 07:00:15.146 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:00:15.155 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-03 07:00:15.155 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:17:55.589 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-03 07:17:55.589 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:18:02.571 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-03 07:18:02.571 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:39:41.143 [info] > git rev-parse --show-toplevel [9ms]
+2024-06-03 07:39:41.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:39:48.321 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-03 07:39:48.321 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:39:51.212 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 07:39:51.212 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 07:39:55.062 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-03 07:39:55.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 08:10:07.124 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 08:10:07.124 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:06:32.550 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 09:06:32.550 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:06:32.755 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-03 09:06:32.755 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:06:35.402 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-03 09:06:35.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:06:39.111 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-03 09:06:39.111 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:06:59.129 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-03 09:06:59.129 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:23:14.392 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-03 09:23:14.392 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-03 09:24:22.064 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-03 09:24:22.074 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-06-03 09:24:22.090 [info] Open repository: /home/ubuntu
+2024-06-03 09:24:22.111 [info] > git config --get commit.template [9ms]
+2024-06-03 09:24:22.112 [info] No remotes found in the git config file.
+2024-06-03 09:24:22.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-06-03 09:24:22.113 [warning] No such branch: master.
+2024-06-03 09:24:22.331 [info] > git status -z -uall [206ms] (cancelled)
+2024-06-03 09:24:22.582 [info] > git show --textconv :airflow/csv_conversion.py [10ms]
+2024-06-03 09:24:22.583 [info] > git ls-files --stage -- /home/ubuntu/airflow/csv_conversion.py [2ms]
+2024-06-03 09:24:22.647 [info] > git check-ignore -v -z --stdin [3ms]
+2024-06-03 09:24:27.705 [info] > git config --get commit.template [15ms]
+2024-06-03 09:24:27.723 [info] No remotes found in the git config file.
+2024-06-03 09:24:27.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-03 09:24:27.725 [warning] No such branch: master.
+2024-06-03 09:24:29.499 [info] > git status -z -uall [1758ms] (cancelled)
+2024-06-03 09:24:38.463 [info] > git show --textconv :.gitignore [20ms]
+2024-06-03 09:24:38.464 [info] > git ls-files --stage -- /home/ubuntu/.gitignore [2ms]
+2024-06-03 09:24:38.694 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-03 09:24:55.818 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-03 09:25:22.687 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-03 09:29:24.527 [info] > git ls-files --stage -- /home/ubuntu/.gitignore [1ms]
+2024-06-03 09:29:24.563 [info] > git show --textconv :.gitignore [2ms]
+2024-06-03 09:29:35.163 [info] > git ls-files --stage -- /home/ubuntu/.gitignore [1ms]
+2024-06-03 09:29:35.190 [info] > git show --textconv :.gitignore [2ms]

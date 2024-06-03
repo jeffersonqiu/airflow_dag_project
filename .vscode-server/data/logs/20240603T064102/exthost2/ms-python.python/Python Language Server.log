@@ -1,0 +1,20 @@
+2024-06-03 07:00:19.123 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-06-03 07:00:19.736 [info] [Info  - 7:00:19 AM] (3700) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-06-03 07:00:19.736 [info] [Info  - 7:00:19 AM] (3700) Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-03 07:00:19.736 [info] [Info  - 7:00:19 AM] (3700) Starting service instance "ubuntu"
+2024-06-03 07:00:19.737 [info] [Info  - 7:00:19 AM] (3700) Auto-Indent enabled
+2024-06-03 07:00:19.844 [info] [Info  - 7:00:19 AM] (3700) Setting environmentName for service "ubuntu": "/opt/homebrew/bin/python3"
+2024-06-03 07:00:19.978 [info] [Info  - 7:00:19 AM] (3700) Auto-excluding /home/ubuntu/e2e_venv
+2024-06-03 07:00:20.182 [info] [Info  - 7:00:20 AM] (3700) Found 2 source files
+2024-06-03 07:00:20.892 [info] [Info  - 7:00:20 AM] (3700) Background analysis(1) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-03 07:00:20.892 [info] [Info  - 7:00:20 AM] (3700) Background analysis(1) started
+2024-06-03 07:00:21.229 [info] [Info  - 7:00:21 AM] (3700) Indexer background runner(2) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-06-03 07:00:21.229 [info] [Info  - 7:00:21 AM] (3700) Indexing(2) started
+2024-06-03 07:00:22.484 [info] [Info  - 7:00:22 AM] (3700) scanned(2) 84 files over 1 exec env
+2024-06-03 07:00:25.322 [info] [Info  - 7:00:25 AM] (3700) [IDX(2)] Long operation: index execution environment file:///home/ubuntu (2493ms)
+2024-06-03 07:00:25.351 [info] [Info  - 7:00:25 AM] (3700) [IDX(2)] Long operation: index packages file:///home/ubuntu (2535ms)
+2024-06-03 07:00:25.351 [info] [Info  - 7:00:25 AM] (3700) indexed(2) 52 files over 1 exec env
+2024-06-03 07:00:25.414 [info] [Info  - 7:00:25 AM] (3700) Indexing finished(2).
+2024-06-03 09:07:01.737 [info] [Error - 9:07:01 AM] Request textDocument/codeAction failed.
+2024-06-03 09:07:01.737 [info]   Message: Request textDocument/codeAction failed with message: index is out of range
+  Code: -32603 

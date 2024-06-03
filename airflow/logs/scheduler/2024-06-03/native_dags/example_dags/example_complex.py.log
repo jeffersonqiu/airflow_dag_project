@@ -1,0 +1,11 @@
+[2024-06-03T06:44:19.478+0000] {processor.py:161} INFO - Started process (PID=3389) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-03T06:44:19.479+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-06-03T06:44:19.481+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-03T06:44:19.492+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-06-03T06:44:19.626+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.625+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-06-03T06:44:19.640+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.640+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-06-03T06:44:19.651+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.651+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_complex
+[2024-06-03T06:44:19.652+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:44:19.665+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.664+0000] {dag.py:3118} INFO - Creating ORM DAG for example_complex
+[2024-06-03T06:44:19.665+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:19.665+0000] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-06-03T06:44:19.691+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.218 seconds

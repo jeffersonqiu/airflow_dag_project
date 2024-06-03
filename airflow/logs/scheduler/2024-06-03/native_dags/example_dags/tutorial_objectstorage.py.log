@@ -1,0 +1,18 @@
+[2024-06-03T06:43:37.080+0000] {processor.py:161} INFO - Started process (PID=3352) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-03T06:43:37.081+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-03T06:43:37.083+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-03T06:43:37.093+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-03T06:43:37.216+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.215+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-06-03T06:43:37.231+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.231+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-06-03T06:43:37.242+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.241+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-06-03T06:43:37.242+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.242+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:43:37.253+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.252+0000] {dag.py:3118} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-06-03T06:43:37.253+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:37.253+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-03T06:43:37.276+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.202 seconds
+[2024-06-03T06:44:38.765+0000] {processor.py:161} INFO - Started process (PID=3406) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-03T06:44:38.766+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-03T06:44:38.768+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:38.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-03T06:44:38.777+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-03T06:44:38.793+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:38.792+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:44:38.805+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:38.805+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-03T06:44:38.829+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.070 seconds

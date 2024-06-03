@@ -1,0 +1,10 @@
+[2024-06-03T06:43:26.459+0000] {processor.py:161} INFO - Started process (PID=3337) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-03T06:43:26.459+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-03T06:43:26.461+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:43:26.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-03T06:43:26.463+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-03T06:43:26.474+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-06-03T06:44:28.688+0000] {processor.py:161} INFO - Started process (PID=3396) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-03T06:44:28.689+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-03T06:44:28.691+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:28.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-03T06:44:28.693+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-03T06:44:28.705+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds

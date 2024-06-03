@@ -1,0 +1,37 @@
+2024-06-03 06:41:02.957 [info] 
+
+
+
+
+2024-06-03 06:41:02.957 [info] Extension host agent started.
+2024-06-03 06:41:02.959 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2024-06-03 06:41:02.966 [info] [<unknown>][ab5b61ea][ManagementConnection] New connection established.
+2024-06-03 06:41:02.985 [info] [<unknown>][9b5bf521][ExtensionHostConnection] New connection established.
+2024-06-03 06:41:03.004 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2024-06-03 06:41:03.116 [info] [<unknown>][9b5bf521][ExtensionHostConnection] <1276> Launched Extension Host Process.
+2024-06-03 06:41:25.293 [info] [<unknown>][ef5e9969][ManagementConnection] New connection established.
+2024-06-03 06:41:25.303 [info] [<unknown>][d37a420d][ExtensionHostConnection] New connection established.
+2024-06-03 06:41:25.310 [info] [<unknown>][d37a420d][ExtensionHostConnection] <2122> Launched Extension Host Process.
+2024-06-03 06:46:02.896 [info] New EH opened, aborting shutdown
+2024-06-03 06:46:25.595 [info] [<unknown>][9b5bf521][ExtensionHostConnection] <1276> Extension Host Process exited with code: 0, signal: null.
+2024-06-03 06:59:59.484 [info] Getting Manifest... ms-python.python
+2024-06-03 06:59:59.531 [info] Installing extension: ms-python.python
+2024-06-03 07:00:00.744 [info] Getting Manifest... ms-python.vscode-pylance
+2024-06-03 07:00:00.771 [info] Getting Manifest... ms-python.debugpy
+2024-06-03 07:00:00.842 [info] Installing extension: ms-python.vscode-pylance
+2024-06-03 07:00:00.842 [info] Installing extension: ms-python.debugpy
+2024-06-03 07:00:05.115 [info] Extension signature verification result for ms-python.debugpy: Success. Duration: 3423ms.
+2024-06-03 07:00:05.136 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Duration: 3410ms.
+2024-06-03 07:00:05.239 [info] Extension signature verification result for ms-python.python: Success. Duration: 3265ms.
+2024-06-03 07:00:07.191 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2024-06-03 07:00:07.212 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2024-06-03 07:00:07.219 [info] Extracting extension completed. ms-python.debugpy
+2024-06-03 07:00:10.479 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.python-2024.6.0: ms-python.python
+2024-06-03 07:00:10.502 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.6.0
+2024-06-03 07:00:10.511 [info] Extracting extension completed. ms-python.python
+2024-06-03 07:00:14.879 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1: ms-python.vscode-pylance
+2024-06-03 07:00:14.898 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1
+2024-06-03 07:00:14.903 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-06-03 07:00:14.916 [info] Extension installed successfully: ms-python.debugpy
+2024-06-03 07:00:14.916 [info] Extension installed successfully: ms-python.python
+2024-06-03 07:00:14.916 [info] Extension installed successfully: ms-python.vscode-pylance

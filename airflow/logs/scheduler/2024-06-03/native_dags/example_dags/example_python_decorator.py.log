@@ -1,0 +1,12 @@
+[2024-06-03T06:44:02.498+0000] {processor.py:161} INFO - Started process (PID=3373) to work on /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-06-03T06:44:02.499+0000] {processor.py:830} INFO - Processing file /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-06-03T06:44:02.500+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-06-03T06:44:02.511+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.510+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-03T06:44:02.511+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-06-03T06:44:02.638+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.637+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2024-06-03T06:44:02.654+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.653+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2024-06-03T06:44:02.666+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.666+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2024-06-03T06:44:02.667+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T06:44:02.678+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.678+0000] {dag.py:3118} INFO - Creating ORM DAG for example_python_decorator
+[2024-06-03T06:44:02.679+0000] {logging_mixin.py:188} INFO - [2024-06-03T06:44:02.678+0000] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-06-03T06:44:02.710+0000] {processor.py:183} INFO - Processing /home/ubuntu/e2e_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.219 seconds
