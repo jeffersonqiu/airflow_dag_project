@@ -1,1 +1,9 @@
 e2e_venv
+.cache
+.dotnet
+.ssh
+.vscode-server
+.bash_history
+.bash_logout
+.bashrc
+.sudo_as_admin_successful
