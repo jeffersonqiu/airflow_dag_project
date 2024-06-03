@@ -7,6 +7,7 @@ import pendulum
 
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
 
 default_args = {
     'owner': 'jeqiu',
@@ -71,5 +72,15 @@ with DAG(
         bash_command = 'aws s3 mv {{ ti.xcom_pull(task_ids="tsk_extract_from_api")[0]}} s3://jqiu-landing-zone-first-dag-project'
     )
 
-t1 >> t2
+    t3 = S3KeySensor(
+        task_id="tsk_check_final_s3",
+        bucket_key='{{ ti.xcom_pull(task_ids="tsk_extract_from_api")[1]}}',
+        bucket_name='jqiu-transformed-data-zone-first-dag-project',
+        timeout=60,  # Optional: Timeout for the sensor (in seconds)
+        poke_interval=5,
+        aws_conn_id = 'aws_conn_s3'
+)
+
+
+t1 >> t2 >> t3
 
