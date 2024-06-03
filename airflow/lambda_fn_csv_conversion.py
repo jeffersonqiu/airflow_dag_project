@@ -9,8 +9,6 @@ def lambda_handler(event, context):
     ori_bucket_name = event['Records'][0]['s3']['bucket']['name']
     ori_key = event['Records'][0]['s3']['object']['key']
     
-    # print(ori_bucket_name, ori_key)
-
     waiter = s3_client.get_waiter('object_exists')
     waiter.wait(Bucket=ori_bucket_name, Key=ori_key)
     

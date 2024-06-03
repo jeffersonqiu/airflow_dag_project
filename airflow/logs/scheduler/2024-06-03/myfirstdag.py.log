@@ -2558,3 +2558,73 @@ NameError: name 's3' is not defined
 [2024-06-03T10:06:11.154+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:06:11.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-03T10:06:11.176+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:06:11.176+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
 [2024-06-03T10:06:11.202+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.077 seconds
+[2024-06-03T10:06:42.221+0000] {processor.py:161} INFO - Started process (PID=6906) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:06:42.223+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:06:42.225+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:06:42.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:06:42.234+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:06:42.345+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:06:42.345+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:06:42.365+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:06:42.365+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:06:42.390+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.178 seconds
+[2024-06-03T10:07:12.784+0000] {processor.py:161} INFO - Started process (PID=6907) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:07:12.785+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:07:12.787+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:07:12.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:07:12.796+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:07:12.902+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:07:12.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:07:12.921+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:07:12.921+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:07:12.944+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.168 seconds
+[2024-06-03T10:07:43.084+0000] {processor.py:161} INFO - Started process (PID=6908) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:07:43.086+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:07:43.088+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:07:43.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:07:43.097+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:07:43.205+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:07:43.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:07:43.224+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:07:43.224+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:07:43.249+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.173 seconds
+[2024-06-03T10:08:13.384+0000] {processor.py:161} INFO - Started process (PID=6910) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:08:13.386+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:08:13.388+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:08:13.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:08:13.397+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:08:13.506+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:08:13.506+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:08:13.524+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:08:13.524+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:08:13.549+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.172 seconds
+[2024-06-03T10:08:43.686+0000] {processor.py:161} INFO - Started process (PID=6911) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:08:43.687+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:08:43.689+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:08:43.688+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:08:43.698+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:08:43.809+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:08:43.809+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:08:43.827+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:08:43.827+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:08:43.851+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.174 seconds
+[2024-06-03T10:09:13.994+0000] {processor.py:161} INFO - Started process (PID=6912) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:09:13.996+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:09:13.998+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:09:13.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:09:14.007+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:09:14.120+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:09:14.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:09:14.138+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:09:14.137+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:09:14.162+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.176 seconds
+[2024-06-03T10:09:44.304+0000] {processor.py:161} INFO - Started process (PID=6913) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:09:44.305+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:09:44.307+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:09:44.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:09:44.316+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:09:44.423+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:09:44.423+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:09:44.440+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:09:44.440+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:09:44.464+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.168 seconds
+[2024-06-03T10:10:14.605+0000] {processor.py:161} INFO - Started process (PID=6918) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:10:14.607+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:10:14.609+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:10:14.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:10:14.619+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:10:14.731+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:10:14.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:10:14.749+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:10:14.749+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:10:14.776+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.179 seconds
+[2024-06-03T10:10:44.916+0000] {processor.py:161} INFO - Started process (PID=6920) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:10:44.917+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:10:44.918+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:10:44.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:10:44.928+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:10:45.035+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:10:45.035+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:10:45.055+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:10:45.054+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:10:45.079+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.171 seconds
+[2024-06-03T10:11:15.226+0000] {processor.py:161} INFO - Started process (PID=6923) to work on /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:11:15.228+0000] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/myfirstdag.py for tasks to queue
+[2024-06-03T10:11:15.230+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:11:15.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:11:15.239+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /home/ubuntu/airflow/dags/myfirstdag.py
+[2024-06-03T10:11:15.349+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:11:15.349+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-03T10:11:15.369+0000] {logging_mixin.py:188} INFO - [2024-06-03T10:11:15.369+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-03T10:11:15.392+0000] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/myfirstdag.py took 0.174 seconds
